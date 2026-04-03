@@ -94,7 +94,7 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     reversedMeaning:
       '你正在质疑旧有的规则与信仰，这是一种必要的成长。打破固化的思维模式，寻找属于自己的精神路径。',
     advice: '向有经验的人寻求智慧，同时保持对自身价值观的忠诚。',
-    themeTag: 'tradition',
+    themeTag: 'authority',
     accentColor: 'indigo',
   },
   {
