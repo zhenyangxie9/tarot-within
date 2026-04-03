@@ -7,7 +7,7 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '愚者',
     arcanaType: 'major',
     romanNumeral: '0',
-    symbol: '☉',
+    symbol: '⛰',
     keywords: ['新开始', '自由', '冒险', '纯真', '可能性'],
     uprightMeaning:
       '你站在旅程的起点，充满无限可能。愚者代表着对未知的勇敢跳跃，以及不被过去束缚的轻盈心态。此刻的你拥有最纯粹的潜能。',
@@ -23,7 +23,7 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '魔术师',
     arcanaType: 'major',
     romanNumeral: 'I',
-    symbol: '∞',
+    symbol: '✦',
     keywords: ['意志', '技艺', '创造', '专注', '实现'],
     uprightMeaning:
       '你拥有实现目标所需的一切工具与才能。魔术师提醒你：意志力是最强大的魔法，专注即是力量。你的能力超乎你的想象。',
@@ -39,7 +39,7 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '女祭司',
     arcanaType: 'major',
     romanNumeral: 'II',
-    symbol: '☽',
+    symbol: '☾',
     keywords: ['直觉', '内在智慧', '神秘', '潜意识', '耐心'],
     uprightMeaning:
       '答案已在你内心深处等待。女祭司象征内在的智慧与直觉的力量——此刻不需要向外寻求，而是向内聆听。静默本身就是答案。',
@@ -55,14 +55,14 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '女皇',
     arcanaType: 'major',
     romanNumeral: 'III',
-    symbol: '♀',
+    symbol: '❀',
     keywords: ['丰盛', '创造力', '滋养', '感官', '成长'],
     uprightMeaning:
       '生命正处于丰盛与繁荣的状态。女皇代表创造力的爆发、关系的滋养以及感官上的满足。允许自己去感受美好，去创造，去给予。',
     reversedMeaning:
       '创造力受阻，或你正在过度付出而忽视了自我滋养。先照顾好自己，才能真正地给予他人。',
     advice: '用爱与耐心滋养你正在孕育的事物，无论是关系、项目还是自我。',
-    themeTag: 'stability',
+    themeTag: 'abundance',
     accentColor: 'green',
   },
   {
@@ -71,7 +71,7 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '皇帝',
     arcanaType: 'major',
     romanNumeral: 'IV',
-    symbol: '♂',
+    symbol: '♜',
     keywords: ['权威', '结构', '稳定', '领导力', '纪律'],
     uprightMeaning:
       '稳固的基础与清晰的结构是此刻的礼物。皇帝代表有序的力量、坚定的决策以及对现实世界的掌控。建立规则，并付诸执行。',
@@ -87,14 +87,14 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '教皇',
     arcanaType: 'major',
     romanNumeral: 'V',
-    symbol: '✦',
+    symbol: '✠',
     keywords: ['传统', '信仰', '指引', '体制', '智慧传承'],
     uprightMeaning:
       '寻求导师或传统智慧的指引。教皇象征经过时间考验的知识与信仰体系，提醒你在既有框架中找到你的位置与意义。',
     reversedMeaning:
       '你正在质疑旧有的规则与信仰，这是一种必要的成长。打破固化的思维模式，寻找属于自己的精神路径。',
     advice: '向有经验的人寻求智慧，同时保持对自身价值观的忠诚。',
-    themeTag: 'authority',
+    themeTag: 'tradition',
     accentColor: 'indigo',
   },
   {
@@ -103,13 +103,14 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '恋人',
     arcanaType: 'major',
     romanNumeral: 'VI',
-    symbol: '♡',
+    symbol: '♥',
     keywords: ['选择', '爱', '价值观', '结合', '诚实'],
     uprightMeaning:
-      '一个重要的选择摆在你面前，它关乎你最深的价值观与渴望。恋人牌不仅代表爱情，更代表与内心真实欲望的结合——选择让你更完整的那条路。',
+      '一个重要的选择摆在你面前，它关乎你最深的价值观与渴望。恋人牌不仅代表爱情，更代表当一个人像海一样靠近你心的时候，你终于明白，真正的结合不是拥有，而是彼此照见之后，仍愿意温柔靠岸。',
     reversedMeaning:
-      '逃避选择，或所做的选择与内心价值相背离。此刻需要诚实地审视你真正想要的是什么，而不是什么让你感到安全。',
-    advice: '听从内心，而不是恐惧；选择爱，而不是习惯。',
+      '逃避选择，或所做的决定与你的内心背道而驰。你也许试着说服自己一切都可以平静无波，但心底知道，有些潮汐一旦来过，就不会真的退去。',
+    advice:
+      '听从内心，而不是恐惧。选择爱，不是因为它安全，而是因为当它靠近时，你的心会先认出它。',
     themeTag: 'choice',
     accentColor: 'rose',
   },
@@ -119,7 +120,7 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '战车',
     arcanaType: 'major',
     romanNumeral: 'VII',
-    symbol: '⚔',
+    symbol: '🛞',
     keywords: ['意志力', '胜利', '控制', '前进', '决断'],
     uprightMeaning:
       '通过意志力与自律，你正在驾驭生命中的对立力量向前推进。战车代表不畏阻碍的前行——内外的矛盾都将服从于你坚定的意志。',
@@ -135,7 +136,7 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '力量',
     arcanaType: 'major',
     romanNumeral: 'VIII',
-    symbol: '♾',
+    symbol: '♌',
     keywords: ['内在力量', '温柔', '耐心', '勇气', '慈悲'],
     uprightMeaning:
       '真正的力量不来自暴力，而来自温柔的掌控。这张牌代表以爱与耐心驯服内在的野性，用慈悲面对恐惧，用平静战胜混乱。',
@@ -167,7 +168,7 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '命运之轮',
     arcanaType: 'major',
     romanNumeral: 'X',
-    symbol: '◎',
+    symbol: '☸',
     keywords: ['命运', '转变', '循环', '机遇', '顺流'],
     uprightMeaning:
       '生命的巨轮在转动，一个新的周期正在开启。命运之轮代表命运的恩赐与变化的必然——顺应这个转折点，而不是抗拒它。',
@@ -199,7 +200,7 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '倒吊人',
     arcanaType: 'major',
     romanNumeral: 'XII',
-    symbol: '⊕',
+    symbol: '⥁',
     keywords: ['暂停', '放手', '新视角', '牺牲', '等待'],
     uprightMeaning:
       '有时候，最有力量的行动是停下来。倒吊人象征主动选择的暂停——换一个角度看待一切，你会发现截然不同的真相。',
@@ -215,7 +216,7 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '死神',
     arcanaType: 'major',
     romanNumeral: 'XIII',
-    symbol: '✦',
+    symbol: '☠',
     keywords: ['结束', '转变', '蜕变', '放手', '新生'],
     uprightMeaning:
       '死神牌代表的是结束，更是蜕变。某个旧有的阶段、关系或身份正在走向终结——这不是失去，而是为新生腾出空间。',
@@ -231,7 +232,7 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '节制',
     arcanaType: 'major',
     romanNumeral: 'XIV',
-    symbol: '∿',
+    symbol: '⚗',
     keywords: ['平衡', '调和', '耐心', '中庸', '整合'],
     uprightMeaning:
       '流动、调和与耐心是此刻的主旋律。节制象征对极端的超越——在两种力量之间找到流动的平衡，而不是偏向任何一方。',
@@ -274,20 +275,24 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     accentColor: 'red',
   },
   {
-    id: 17,
-    name: 'The Star',
-    nameCN: '星星',
-    arcanaType: 'major',
-    romanNumeral: 'XVII',
-    symbol: '★',
-    keywords: ['希望', '疗愈', '平静', '信念', '更新'],
-    uprightMeaning:
-      '在黑暗之后，星光降临。星星牌带来希望、疗愈与平静的能量——即使在最困难的时刻，也有内在的光指引着你。',
-    reversedMeaning:
-      '你失去了对未来的信心，或感到被遗弃与绝望。重新连接内心的那颗星——希望从未真正消失，只是被暂时遮蔽了。',
-    advice: '相信生命的善意，让希望的光慢慢渗入你疲惫的内心。',
-    themeTag: 'hope',
-    accentColor: 'sky',
+      "id": 17,
+      "name": "The Star",
+      "nameCN": "星星",
+      "arcanaType": "major",
+      "romanNumeral": "XVII",
+      "symbol": "✷",
+      "keywords": [
+          "希望",
+          "疗愈",
+          "平静",
+          "信念",
+          "归航"
+      ],
+      "uprightMeaning":"夜潮退去，星光不再只是悬在天上，而是悄悄映进更深的水里。那是比希望更安静的疗愈——像有一片海，始终在你心里，为你的光留出归处。",
+      "reversedMeaning": "迷雾曾让海面失去倒影，你误以为光已熄灭。但请触摸潮汐的震动，海从未遗忘心的坐标。绝望只是浪花，信念是海底的沉船，静默而永恒。",
+      "advice": "不必追逐天边的火，只需俯身倾听。让生命如海水般接纳，让心的潮汐，洗净你疲惫的灵魂。",
+      "themeTag": "hope",
+      "accentColor": "sky"
   },
   {
     id: 18,
@@ -295,7 +300,7 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '月亮',
     arcanaType: 'major',
     romanNumeral: 'XVIII',
-    symbol: '🌙',
+    symbol: '☾',
     keywords: ['幻觉', '恐惧', '潜意识', '迷雾', '直觉'],
     uprightMeaning:
       '事情并非表面看起来那么清晰。月亮牌代表幻觉、恐惧与潜意识的涌现——此刻需要穿透迷雾，辨别真实与投影。',
@@ -311,7 +316,7 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '太阳',
     arcanaType: 'major',
     romanNumeral: 'XIX',
-    symbol: '☀',
+    symbol: '☼',
     keywords: ['喜悦', '成功', '活力', '清明', '光明'],
     uprightMeaning:
       '光明、喜悦与成功笼罩着你此刻的处境。太阳牌是最充满正能量的牌之一——一切都清晰可见，你的努力正在开花结果。',
@@ -327,7 +332,7 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '审判',
     arcanaType: 'major',
     romanNumeral: 'XX',
-    symbol: '♪',
+    symbol: '📯',
     keywords: ['觉醒', '召唤', '重生', '自我评估', '转化'],
     uprightMeaning:
       '一个深刻的觉醒与召唤正在到来。审判牌代表从过去中获得解脱、回应内心更高召唤的时刻——你正在蜕变成一个更真实的自己。',
@@ -343,7 +348,7 @@ export const MAJOR_ARCANA: TarotCardData[] = [
     nameCN: '世界',
     arcanaType: 'major',
     romanNumeral: 'XXI',
-    symbol: '⊛',
+    symbol: '◉',
     keywords: ['完成', '整合', '成就', '圆满', '新循环'],
     uprightMeaning:
       '一个重要的旅程已经圆满完成。世界牌代表整合、成就与完整——你携带着这段旅程所有的学习，站在一个新循环的入口处。',

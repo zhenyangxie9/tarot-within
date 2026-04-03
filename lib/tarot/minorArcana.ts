@@ -14,7 +14,7 @@ const WANDS: TarotCardData[] = [
   },
   {
     id: 23, name: 'Two of Wands', nameCN: '权杖二', arcanaType: 'minor', suit: 'wands', cardNumber: 2,
-    romanNumeral: 'II', symbol: '⊕',
+    romanNumeral: 'II', symbol: '🗺',
     keywords: ['规划', '远见', '抉择', '探索', '扩张'],
     uprightMeaning: '你站在高处眺望远方，手握权力与资源。一个重要的决定需要你做出——是安于现状，还是踏上更宏大的冒险？',
     reversedMeaning: '计划受阻或缺乏方向感。你也许在犹豫是否值得冒险，内心的恐惧阻止了你迈出那一步。',
@@ -23,7 +23,7 @@ const WANDS: TarotCardData[] = [
   },
   {
     id: 24, name: 'Three of Wands', nameCN: '权杖三', arcanaType: 'minor', suit: 'wands', cardNumber: 3,
-    romanNumeral: 'III', symbol: '≋',
+    romanNumeral: 'III', symbol: '⛵',
     keywords: ['扩展', '等待', '预见', '进展', '机遇'],
     uprightMeaning: '你已经迈出了第一步，现在正在等待努力的结果显现。视野正在扩大，更大的可能性正向你敞开。',
     reversedMeaning: '进展比预期缓慢，或计划遭遇阻力。检视是否需要调整策略，而不是原地等待。',
@@ -41,7 +41,7 @@ const WANDS: TarotCardData[] = [
   },
   {
     id: 26, name: 'Five of Wands', nameCN: '权杖五', arcanaType: 'minor', suit: 'wands', cardNumber: 5,
-    romanNumeral: 'V', symbol: '⚔',
+    romanNumeral: 'V', symbol: '🪵',
     keywords: ['竞争', '冲突', '挑战', '摩擦', '测试'],
     uprightMeaning: '竞争与挑战正在考验你的意志。这些冲突虽然让人疲惫，但也是磨砺能力、找到真正方向的必要过程。',
     reversedMeaning: '内部冲突或混乱正在消耗你的能量。避免无谓的争论，寻找更高效的合作方式。',
@@ -50,7 +50,7 @@ const WANDS: TarotCardData[] = [
   },
   {
     id: 27, name: 'Six of Wands', nameCN: '权杖六', arcanaType: 'minor', suit: 'wands', cardNumber: 6,
-    romanNumeral: 'VI', symbol: '★',
+    romanNumeral: 'VI', symbol: '🏆',
     keywords: ['胜利', '认可', '自信', '成功', '荣誉'],
     uprightMeaning: '你的努力得到了认可，胜利正在到来。这是一个展示成果、接受赞美的时刻，允许自己为自己感到骄傲。',
     reversedMeaning: '成功未能如预期到来，或你在寻求外部认可而非内在满足。真正的胜利首先来自对自己的认可。',
@@ -59,7 +59,7 @@ const WANDS: TarotCardData[] = [
   },
   {
     id: 28, name: 'Seven of Wands', nameCN: '权杖七', arcanaType: 'minor', suit: 'wands', cardNumber: 7,
-    romanNumeral: 'VII', symbol: '⚡',
+    romanNumeral: 'VII', symbol: '🛡',
     keywords: ['坚守', '防御', '挑战', '勇气', '立场'],
     uprightMeaning: '你站在高处，面对来自各方的挑战。现在需要坚守自己的立场，不要因外部压力而妥协你相信的事。',
     reversedMeaning: '你感到不堪重负或想要放弃。检视这场战斗是否真的值得，有时候放手也是一种智慧。',
@@ -68,7 +68,7 @@ const WANDS: TarotCardData[] = [
   },
   {
     id: 29, name: 'Eight of Wands', nameCN: '权杖八', arcanaType: 'minor', suit: 'wands', cardNumber: 8,
-    romanNumeral: 'VIII', symbol: '→',
+    romanNumeral: 'VIII', symbol: '➶',
     keywords: ['速度', '行动', '消息', '突破', '移动'],
     uprightMeaning: '事情正在以极快的速度推进。等待已久的消息即将到来，行动的窗口已经开启，现在是全速前进的时刻。',
     reversedMeaning: '速度过快导致混乱，或重要事项被推迟。慢下来整理思路，再重新出发。',
@@ -77,7 +77,7 @@ const WANDS: TarotCardData[] = [
   },
   {
     id: 30, name: 'Nine of Wands', nameCN: '权杖九', arcanaType: 'minor', suit: 'wands', cardNumber: 9,
-    romanNumeral: 'IX', symbol: '⊛',
+    romanNumeral: 'IX', symbol: '🩹',
     keywords: ['坚韧', '疲惫', '戒备', '持续', '近终点'],
     uprightMeaning: '你已经走了很长的路，带着伤痕却依然站立。终点近在眼前，这最后一段路需要你再次鼓起勇气坚持下去。',
     reversedMeaning: '你已经精疲力竭，难以继续前行。允许自己休息，不要强撑——照顾好自己才能走完最后的路程。',
@@ -86,7 +86,7 @@ const WANDS: TarotCardData[] = [
   },
   {
     id: 31, name: 'Ten of Wands', nameCN: '权杖十', arcanaType: 'minor', suit: 'wands', cardNumber: 10,
-    romanNumeral: 'X', symbol: '⧓',
+    romanNumeral: 'X', symbol: '🪨',
     keywords: ['重担', '压力', '责任', '终点', '放下'],
     uprightMeaning: '你承担了太多，肩上的重量让你几乎无法前行。是时候审视这些负担，哪些是必须的，哪些可以放下或分担。',
     reversedMeaning: '你正在学习放下不属于你的责任。减轻负担不是逃避，而是明智地分配能量。',
@@ -104,7 +104,7 @@ const WANDS: TarotCardData[] = [
   },
   {
     id: 33, name: 'Knight of Wands', nameCN: '权杖骑士', arcanaType: 'minor', suit: 'wands', cardNumber: 12,
-    romanNumeral: 'Kn', symbol: '⚡',
+    romanNumeral: 'Kn', symbol: '🐎',
     keywords: ['冲劲', '冒险', '鲁莽', '魅力', '热血'],
     uprightMeaning: '一股充满魅力的冒险能量正在推动你向前。采取大胆行动的时机已到，但注意不要因冲动而忽略细节。',
     reversedMeaning: '冲劲变成了鲁莽，或你在用行动逃避内心的问题。在行动前先停下来思考后果。',
@@ -113,7 +113,7 @@ const WANDS: TarotCardData[] = [
   },
   {
     id: 34, name: 'Queen of Wands', nameCN: '权杖王后', arcanaType: 'minor', suit: 'wands', cardNumber: 13,
-    romanNumeral: 'Q', symbol: '♔',
+    romanNumeral: 'Q', symbol: '🜂',
     keywords: ['自信', '领导力', '热情', '创造力', '独立'],
     uprightMeaning: '你散发着一种充满感染力的自信与魅力。以真实的自我去领导和创造，你的热情会自然地吸引他人跟随。',
     reversedMeaning: '自信变成了傲慢，或你在用强势掩盖内心的不安全感。回归真实的自我，力量不需要证明。',
@@ -122,7 +122,7 @@ const WANDS: TarotCardData[] = [
   },
   {
     id: 35, name: 'King of Wands', nameCN: '权杖国王', arcanaType: 'minor', suit: 'wands', cardNumber: 14,
-    romanNumeral: 'K', symbol: '♕',
+    romanNumeral: 'K', symbol: '♚',
     keywords: ['远见', '领导', '创业精神', '激励', '掌控'],
     uprightMeaning: '你是一位有远见的领导者，能够激励他人并将宏大的愿景变为现实。以热情和智慧带领你所在意的事业前行。',
     reversedMeaning: '权威被滥用，或你在推行自己的意志而忽视他人。真正的领导力来自服务，而非控制。',
@@ -136,7 +136,7 @@ const WANDS: TarotCardData[] = [
 const CUPS: TarotCardData[] = [
   {
     id: 36, name: 'Ace of Cups', nameCN: '圣杯王牌', arcanaType: 'minor', suit: 'cups', cardNumber: 1,
-    romanNumeral: 'A', symbol: '♡',
+    romanNumeral: 'A', symbol: '☕',
     keywords: ['爱', '新情感', '直觉开启', '情感满溢', '疗愈'],
     uprightMeaning: '纯粹的爱与情感能量正在流淌。一段新的情感连接、深刻的疗愈，或内心深处的爱正在向你涌来。',
     reversedMeaning: '情感被压抑或爱的能量无法流动。检视是什么阻止了你去感受和给予爱，也许是旧有的伤痛需要先被疗愈。',
@@ -145,7 +145,7 @@ const CUPS: TarotCardData[] = [
   },
   {
     id: 37, name: 'Two of Cups', nameCN: '圣杯二', arcanaType: 'minor', suit: 'cups', cardNumber: 2,
-    romanNumeral: 'II', symbol: '◇',
+    romanNumeral: 'II', symbol: '⚭',
     keywords: ['结合', '互相吸引', '伙伴关系', '和谐', '承诺'],
     uprightMeaning: '两颗心灵之间产生了深刻的共鸣与连接。这张牌代表真诚的伙伴关系、相互吸引的美好，以及建立在平等基础上的情感。',
     reversedMeaning: '关系中出现了不平衡或沟通断裂。检视双方是否都在真诚付出，还是已经产生了疏离。',
@@ -154,7 +154,7 @@ const CUPS: TarotCardData[] = [
   },
   {
     id: 38, name: 'Three of Cups', nameCN: '圣杯三', arcanaType: 'minor', suit: 'cups', cardNumber: 3,
-    romanNumeral: 'III', symbol: '⋈',
+    romanNumeral: 'III', symbol: '🥂',
     keywords: ['庆祝', '友情', '喜悦', '聚会', '分享'],
     uprightMeaning: '欢庆与友情的能量环绕着你。与重要的人共同庆祝生命中的美好，让喜悦在彼此之间流动。',
     reversedMeaning: '社交过度消耗你的能量，或友情中出现了嫉妒与竞争。回归最真实的连接，而非表面的喧嚣。',
@@ -163,7 +163,7 @@ const CUPS: TarotCardData[] = [
   },
   {
     id: 39, name: 'Four of Cups', nameCN: '圣杯四', arcanaType: 'minor', suit: 'cups', cardNumber: 4,
-    romanNumeral: 'IV', symbol: '○',
+    romanNumeral: 'IV', symbol: '◔',
     keywords: ['冥想', '冷漠', '重新评估', '内省', '不满足'],
     uprightMeaning: '你陷入了沉思，对眼前已有的感到漠然。也许你错过了正在被给予的礼物，因为你的目光投向了别处。',
     reversedMeaning: '你正在从冷漠中走出，重新对生活产生兴趣。一个你之前忽视的机会或关系值得重新审视。',
@@ -172,7 +172,7 @@ const CUPS: TarotCardData[] = [
   },
   {
     id: 40, name: 'Five of Cups', nameCN: '圣杯五', arcanaType: 'minor', suit: 'cups', cardNumber: 5,
-    romanNumeral: 'V', symbol: '∿',
+    romanNumeral: 'V', symbol: '💧',
     keywords: ['失落', '悲伤', '后悔', '仍有余留', '接受'],
     uprightMeaning: '失去与悲伤需要被感受。你为已经失去的事物哭泣，但请转身看看——还有两个杯子站立着，不是一切都已失去。',
     reversedMeaning: '你正在从悲伤中走出，开始接受失去并向前看。允许自己经历这个过程，疗愈需要时间。',
@@ -181,7 +181,7 @@ const CUPS: TarotCardData[] = [
   },
   {
     id: 41, name: 'Six of Cups', nameCN: '圣杯六', arcanaType: 'minor', suit: 'cups', cardNumber: 6,
-    romanNumeral: 'VI', symbol: '✿',
+    romanNumeral: 'VI', symbol: '❀',
     keywords: ['怀旧', '童年', '纯真', '旧情', '记忆'],
     uprightMeaning: '过去温暖而美好的记忆正在浮现。童年的纯真、旧日的情谊，或一段已经结束的美好关系带给你慰藉与灵感。',
     reversedMeaning: '你过于沉浸在过去，无法完全活在当下。感受记忆的温暖，但不要让它阻碍你创造新的美好。',
@@ -190,7 +190,7 @@ const CUPS: TarotCardData[] = [
   },
   {
     id: 42, name: 'Seven of Cups', nameCN: '圣杯七', arcanaType: 'minor', suit: 'cups', cardNumber: 7,
-    romanNumeral: 'VII', symbol: '◎',
+    romanNumeral: 'VII', symbol: '☁',
     keywords: ['幻想', '选择', '迷失', '可能性', '诱惑'],
     uprightMeaning: '面前有太多令人眼花缭乱的选择，有些充满诱惑但并不真实。穿透幻象，找到真正值得你投入的那一个。',
     reversedMeaning: '你正在从幻想中清醒，开始做出更实际的选择。直面现实需要勇气，但这是真正前进的开始。',
@@ -199,7 +199,7 @@ const CUPS: TarotCardData[] = [
   },
   {
     id: 43, name: 'Eight of Cups', nameCN: '圣杯八', arcanaType: 'minor', suit: 'cups', cardNumber: 8,
-    romanNumeral: 'VIII', symbol: '↑',
+    romanNumeral: 'VIII', symbol: '🚶',
     keywords: ['离开', '寻求更深', '放弃已有', '精神追求', '勇气'],
     uprightMeaning: '你选择放下已经拥有的一切，去寻找更深刻的意义。这需要莫大的勇气，但内心知道留下来已经不是答案。',
     reversedMeaning: '你犹豫是否要离开，或已经离开但带着遗憾与恐惧。检视你真正想要的是什么，而不是在逃避什么。',
@@ -208,7 +208,7 @@ const CUPS: TarotCardData[] = [
   },
   {
     id: 44, name: 'Nine of Cups', nameCN: '圣杯九', arcanaType: 'minor', suit: 'cups', cardNumber: 9,
-    romanNumeral: 'IX', symbol: '⊙',
+    romanNumeral: 'IX', symbol: '☽',
     keywords: ['满足', '心愿实现', '幸福', '感恩', '丰盛'],
     uprightMeaning: '这是塔罗中最幸运的小牌之一——"心愿牌"。你正在或即将体验一种深刻的满足感，你努力了很久的事情正在成真。',
     reversedMeaning: '表面的满足掩盖着内心的空洞，或你在用物质填补精神的缺失。真正的幸福需要向内寻找。',
@@ -217,7 +217,7 @@ const CUPS: TarotCardData[] = [
   },
   {
     id: 45, name: 'Ten of Cups', nameCN: '圣杯十', arcanaType: 'minor', suit: 'cups', cardNumber: 10,
-    romanNumeral: 'X', symbol: '◈',
+    romanNumeral: 'X', symbol: '🌈',
     keywords: ['圆满', '家庭幸福', '和谐', '情感完整', '幸福'],
     uprightMeaning: '情感与关系上的圆满。家庭、爱情、友情都处于最和谐的状态，真正的幸福就在你眼前，在那些你最爱的人身上。',
     reversedMeaning: '家庭或亲密关系中存在隐藏的紧张。外表的和谐背后，是否有什么需要被诚实地面对和疗愈？',
@@ -226,7 +226,7 @@ const CUPS: TarotCardData[] = [
   },
   {
     id: 46, name: 'Page of Cups', nameCN: '圣杯侍者', arcanaType: 'minor', suit: 'cups', cardNumber: 11,
-    romanNumeral: 'P', symbol: '✧',
+    romanNumeral: 'P', symbol: '🐟',
     keywords: ['情感信息', '直觉初现', '创意感受', '纯真', '浪漫'],
     uprightMeaning: '一个带着情感信息的使者出现了，或你内心一个新的情感灵感正在萌芽。允许自己以感性和直觉来感知这个世界。',
     reversedMeaning: '情绪化的行为或过于理想化的幻想。在情感的海洋中保持一定的清醒，才不会被波浪淹没。',
@@ -235,7 +235,7 @@ const CUPS: TarotCardData[] = [
   },
   {
     id: 47, name: 'Knight of Cups', nameCN: '圣杯骑士', arcanaType: 'minor', suit: 'cups', cardNumber: 12,
-    romanNumeral: 'Kn', symbol: '♪',
+    romanNumeral: 'Kn', symbol: '🦢',
     keywords: ['浪漫', '魅力', '追求', '理想主义', '情感行动'],
     uprightMeaning: '一位充满魅力的追求者出现了，或你正以浪漫主义的方式追求内心的理想。跟随你的心，但保持一份清醒。',
     reversedMeaning: '过度理想化导致失望，或你用魅力来操控而非真诚连接。检视你的情感是否真实还是表演。',
@@ -244,7 +244,7 @@ const CUPS: TarotCardData[] = [
   },
   {
     id: 48, name: 'Queen of Cups', nameCN: '圣杯王后', arcanaType: 'minor', suit: 'cups', cardNumber: 13,
-    romanNumeral: 'Q', symbol: '♔',
+    romanNumeral: 'Q', symbol: '☾',
     keywords: ['共情', '直觉', '慈悲', '情感智慧', '疗愈者'],
     uprightMeaning: '你拥有深刻的情感智慧与共情能力。以温柔和直觉引导自己与他人，你天生就有疗愈和滋养他人的能力。',
     reversedMeaning: '过度共情导致你失去了自我，或情绪成为了控制他人的工具。先照顾好自己的情感健康。',
@@ -253,7 +253,7 @@ const CUPS: TarotCardData[] = [
   },
   {
     id: 49, name: 'King of Cups', nameCN: '圣杯国王', arcanaType: 'minor', suit: 'cups', cardNumber: 14,
-    romanNumeral: 'K', symbol: '♕',
+    romanNumeral: 'K', symbol: '♛',
     keywords: ['情感成熟', '掌控感受', '智慧', '慈悲领导', '平静'],
     uprightMeaning: '你已经达到了一种情感上的成熟与平静——即使在风浪中也能保持内心的稳定。以智慧和慈悲引领你所在意的一切。',
     reversedMeaning: '情绪被过度压抑，或用冷漠来伪装脆弱。真正的情感力量不是不感受，而是有能力感受并依然平静。',
@@ -267,7 +267,7 @@ const CUPS: TarotCardData[] = [
 const PENTACLES: TarotCardData[] = [
   {
     id: 50, name: 'Ace of Pentacles', nameCN: '星币王牌', arcanaType: 'minor', suit: 'pentacles', cardNumber: 1,
-    romanNumeral: 'A', symbol: '⊛',
+    romanNumeral: 'A', symbol: '⛀',
     keywords: ['新机遇', '物质丰盛', '新收入', '实体开始', '繁荣'],
     uprightMeaning: '一个充满实际价值的新机遇正在降临——可能是工作、财务或健康方面的新开始。抓住这个创造物质丰盛的机会。',
     reversedMeaning: '物质机遇被错过，或财务计划不够扎实。在投资之前，确保基础是稳固的。',
@@ -285,7 +285,7 @@ const PENTACLES: TarotCardData[] = [
   },
   {
     id: 52, name: 'Three of Pentacles', nameCN: '星币三', arcanaType: 'minor', suit: 'pentacles', cardNumber: 3,
-    romanNumeral: 'III', symbol: '◈',
+    romanNumeral: 'III', symbol: '🛠',
     keywords: ['合作', '技艺', '认可', '团队协作', '学习'],
     uprightMeaning: '你的技能和专业正在得到认可。团队合作与集体的智慧此刻比单打独斗更有力量，共同创造出超越个人的作品。',
     reversedMeaning: '合作出现摩擦，或你的努力没有得到应有的认可。检视团队动态，找到更有效的协作方式。',
@@ -294,7 +294,7 @@ const PENTACLES: TarotCardData[] = [
   },
   {
     id: 53, name: 'Four of Pentacles', nameCN: '星币四', arcanaType: 'minor', suit: 'pentacles', cardNumber: 4,
-    romanNumeral: 'IV', symbol: '⊕',
+    romanNumeral: 'IV', symbol: '🧱',
     keywords: ['保守', '控制', '稳定', '积累', '执着'],
     uprightMeaning: '你紧紧抓住已有的资源与安全感，这在某些时候是明智的。但过度的执着与控制，可能阻止了新的丰盛流入。',
     reversedMeaning: '你正在松开对物质的执着，允许更大的流动性进入你的生命。或者财务上的不安全感需要被直面。',
@@ -303,7 +303,7 @@ const PENTACLES: TarotCardData[] = [
   },
   {
     id: 54, name: 'Five of Pentacles', nameCN: '星币五', arcanaType: 'minor', suit: 'pentacles', cardNumber: 5,
-    romanNumeral: 'V', symbol: '✕',
+    romanNumeral: 'V', symbol: '❄',
     keywords: ['困难', '财务压力', '孤独', '匮乏感', '寻求帮助'],
     uprightMeaning: '你正在经历一段物质或精神上的困境，感到被冷落或孤立。记住：寻求帮助不是软弱，窗内的光对每个人都开着。',
     reversedMeaning: '困境正在好转，或你开始接受外部的帮助与支持。从匮乏的心态中走出，接受生命的馈赠。',
@@ -321,7 +321,7 @@ const PENTACLES: TarotCardData[] = [
   },
   {
     id: 56, name: 'Seven of Pentacles', nameCN: '星币七', arcanaType: 'minor', suit: 'pentacles', cardNumber: 7,
-    romanNumeral: 'VII', symbol: '⧖',
+    romanNumeral: 'VII', symbol: '🌱',
     keywords: ['等待', '评估', '耐心', '投资回报', '长期'],
     uprightMeaning: '你已经付出了努力，现在需要耐心等待结果成熟。停下来评估进展，思考是否需要调整方向，然后继续耕耘。',
     reversedMeaning: '急于见到成果导致了不耐烦，或你在一件不值得继续投入的事情上浪费精力。学会区分耐心与固执。',
@@ -330,7 +330,7 @@ const PENTACLES: TarotCardData[] = [
   },
   {
     id: 57, name: 'Eight of Pentacles', nameCN: '星币八', arcanaType: 'minor', suit: 'pentacles', cardNumber: 8,
-    romanNumeral: 'VIII', symbol: '⋈',
+    romanNumeral: 'VIII', symbol: '⚒',
     keywords: ['技艺精进', '专注', '勤奋', '学习', '工匠精神'],
     uprightMeaning: '专注于磨练你的技艺，重复练习带来精通。这不是天才，而是每天坚持的工匠精神。你的努力将被看见。',
     reversedMeaning: '工作变成了机械的重复，你失去了对它的热情与意义感。找回为何而做的初心，或考虑换一个方向。',
@@ -339,7 +339,7 @@ const PENTACLES: TarotCardData[] = [
   },
   {
     id: 58, name: 'Nine of Pentacles', nameCN: '星币九', arcanaType: 'minor', suit: 'pentacles', cardNumber: 9,
-    romanNumeral: 'IX', symbol: '✦',
+    romanNumeral: 'IX', symbol: '🕊',
     keywords: ['独立', '自给自足', '成就', '享受', '自我奖励'],
     uprightMeaning: '你通过自己的努力建立了物质上的丰盛与独立。这是享受劳动成果的时刻，你完全值得拥有这一切。',
     reversedMeaning: '过度工作牺牲了生活品质，或依赖他人的财务支持。找到真正属于你的独立与满足。',
@@ -348,7 +348,7 @@ const PENTACLES: TarotCardData[] = [
   },
   {
     id: 59, name: 'Ten of Pentacles', nameCN: '星币十', arcanaType: 'minor', suit: 'pentacles', cardNumber: 10,
-    romanNumeral: 'X', symbol: '⊙',
+    romanNumeral: 'X', symbol: '🏡',
     keywords: ['传承', '家族', '永续', '财富积累', '长远根基'],
     uprightMeaning: '物质与精神上的圆满正在到来，这不只属于你一人，而是可以传递给家人与后代的丰盛。建立长久的根基。',
     reversedMeaning: '家族财务或传承出现问题，或你在追求财富时失去了更重要的东西。检视真正能传承的是什么。',
@@ -357,7 +357,7 @@ const PENTACLES: TarotCardData[] = [
   },
   {
     id: 60, name: 'Page of Pentacles', nameCN: '星币侍者', arcanaType: 'minor', suit: 'pentacles', cardNumber: 11,
-    romanNumeral: 'P', symbol: '○',
+    romanNumeral: 'P', symbol: '🌿',
     keywords: ['学习', '实践', '专注', '新技能', '机遇探索'],
     uprightMeaning: '一个充满学习热情的新阶段正在开始。以踏实认真的态度学习新技能或探索新领域，每一步扎实的练习都有价值。',
     reversedMeaning: '分心或缺乏专注阻碍了进步。回到基础，找到一件事认真钻研，而不是浅尝辄止。',
@@ -366,7 +366,7 @@ const PENTACLES: TarotCardData[] = [
   },
   {
     id: 61, name: 'Knight of Pentacles', nameCN: '星币骑士', arcanaType: 'minor', suit: 'pentacles', cardNumber: 12,
-    romanNumeral: 'Kn', symbol: '⊕',
+    romanNumeral: 'Kn', symbol: '🐂',
     keywords: ['勤奋', '可靠', '稳健', '耐心执行', '实际'],
     uprightMeaning: '以稳健、可靠的方式推进你的目标。虽然进展缓慢，但每一步都踏实有力。坚持与执行力是你最大的优势。',
     reversedMeaning: '停滞不前或过于保守。也许是时候加快步伐，或打破一些固定的模式，尝试新的方法。',
@@ -375,7 +375,7 @@ const PENTACLES: TarotCardData[] = [
   },
   {
     id: 62, name: 'Queen of Pentacles', nameCN: '星币王后', arcanaType: 'minor', suit: 'pentacles', cardNumber: 13,
-    romanNumeral: 'Q', symbol: '♔',
+    romanNumeral: 'Q', symbol: '🌾',
     keywords: ['滋养', '实际智慧', '丰盛', '照顾', '家庭管理'],
     uprightMeaning: '你以实际而温暖的方式创造丰盛，滋养你周围的一切。你的能力在于把资源转化为真实的安全感与舒适的生活。',
     reversedMeaning: '过度关注物质或他人，忽视了自身的需求。先回到自己的内心，确保你的根基是稳固的。',
@@ -384,7 +384,7 @@ const PENTACLES: TarotCardData[] = [
   },
   {
     id: 63, name: 'King of Pentacles', nameCN: '星币国王', arcanaType: 'minor', suit: 'pentacles', cardNumber: 14,
-    romanNumeral: 'K', symbol: '♕',
+    romanNumeral: 'K', symbol: '♔',
     keywords: ['财富', '稳定', '务实领导', '安全', '成熟'],
     uprightMeaning: '你以成熟与稳健建立了持久的财富与安全感。以你的资源和影响力去支持和保护你所珍视的人与事业。',
     reversedMeaning: '财富被用于控制，或物质主义遮蔽了精神层面的需求。检视金钱与安全感在你生命中的位置。',
@@ -398,7 +398,7 @@ const PENTACLES: TarotCardData[] = [
 const SWORDS: TarotCardData[] = [
   {
     id: 64, name: 'Ace of Swords', nameCN: '宝剑王牌', arcanaType: 'minor', suit: 'swords', cardNumber: 1,
-    romanNumeral: 'A', symbol: '⚔',
+    romanNumeral: 'A', symbol: '🗡',
     keywords: ['清晰', '真相', '突破性想法', '正义', '新认知'],
     uprightMeaning: '一道清晰的光刺破迷雾，真相正在浮现。一个突破性的想法或决定将切断纠结，带来新的清明与方向。',
     reversedMeaning: '思维混乱或真相被扭曲。在做重要决定前，先整理清楚你真正的想法，不要被信息噪音所淹没。',
@@ -407,7 +407,7 @@ const SWORDS: TarotCardData[] = [
   },
   {
     id: 65, name: 'Two of Swords', nameCN: '宝剑二', arcanaType: 'minor', suit: 'swords', cardNumber: 2,
-    romanNumeral: 'II', symbol: '⊗',
+    romanNumeral: 'II', symbol: '⚔',
     keywords: ['僵局', '回避', '艰难选择', '内心冲突', '暂时封闭'],
     uprightMeaning: '你蒙着眼睛，拒绝看见令你不安的真相。这个僵局无法通过回避解决，迟早需要做出那个艰难的选择。',
     reversedMeaning: '你正在移除眼罩，准备面对一直回避的真相。勇敢地睁开眼，第一步往往最难。',
@@ -416,7 +416,7 @@ const SWORDS: TarotCardData[] = [
   },
   {
     id: 66, name: 'Three of Swords', nameCN: '宝剑三', arcanaType: 'minor', suit: 'swords', cardNumber: 3,
-    romanNumeral: 'III', symbol: '♡',
+    romanNumeral: 'III', symbol: '💔',
     keywords: ['心碎', '悲伤', '失去', '背叛', '痛苦'],
     uprightMeaning: '心痛是真实的，不需要假装它不存在。宝剑三邀请你允许自己完全感受这份悲伤，因为只有真正经历它，才能真正走过它。',
     reversedMeaning: '痛苦正在缓和，或你开始学会接受与放手。疗愈是一个非线性的过程，给自己多一点时间。',
@@ -425,7 +425,7 @@ const SWORDS: TarotCardData[] = [
   },
   {
     id: 67, name: 'Four of Swords', nameCN: '宝剑四', arcanaType: 'minor', suit: 'swords', cardNumber: 4,
-    romanNumeral: 'IV', symbol: '—',
+    romanNumeral: 'IV', symbol: '🛏',
     keywords: ['休息', '恢复', '冥想', '暂停', '内在疗愈'],
     uprightMeaning: '在冲突与压力之后，你需要一段真正的休息。暂时退出战场，让身心得到恢复，这不是放弃而是智慧。',
     reversedMeaning: '你无法让自己真正休息，或休息时间已经够了，是重新行动的时候了。辨别是疲惫还是逃避。',
@@ -434,7 +434,7 @@ const SWORDS: TarotCardData[] = [
   },
   {
     id: 68, name: 'Five of Swords', nameCN: '宝剑五', arcanaType: 'minor', suit: 'swords', cardNumber: 5,
-    romanNumeral: 'V', symbol: '✕',
+    romanNumeral: 'V', symbol: '☠',
     keywords: ['冲突', '失败', '不诚实', '代价', '自私胜利'],
     uprightMeaning: '一场胜利的背后，是失去了更多。赢得争论、击败他人——但这个胜利真的值得吗？检视行动的代价与后果。',
     reversedMeaning: '你选择放弃这场无谓的争斗，寻求和解或妥协。有时候，放弃胜利是更成熟的选择。',
@@ -443,7 +443,7 @@ const SWORDS: TarotCardData[] = [
   },
   {
     id: 69, name: 'Six of Swords', nameCN: '宝剑六', arcanaType: 'minor', suit: 'swords', cardNumber: 6,
-    romanNumeral: 'VI', symbol: '→',
+    romanNumeral: 'VI', symbol: '⛵',
     keywords: ['过渡', '移动', '平静水域', '愈合', '前行'],
     uprightMeaning: '你正在离开动荡的水域，驶向更平静的地方。这段旅程不是快乐的逃离，而是必要的过渡与疗愈的开始。',
     reversedMeaning: '你抗拒必要的改变，或试图回到已经结束的状态。前方的平静比身后的混乱更值得你去追求。',
@@ -452,7 +452,7 @@ const SWORDS: TarotCardData[] = [
   },
   {
     id: 70, name: 'Seven of Swords', nameCN: '宝剑七', arcanaType: 'minor', suit: 'swords', cardNumber: 7,
-    romanNumeral: 'VII', symbol: '⋯',
+    romanNumeral: 'VII', symbol: '🕵',
     keywords: ['策略', '欺骗', '独立行动', '逃避', '巧妙周旋'],
     uprightMeaning: '你正在用策略和机智解决问题，有时候不动声色地行动比正面冲突更有效。但确保你的策略不越过诚实的界限。',
     reversedMeaning: '欺骗或秘密正在造成更大的问题。诚实面对，即使需要承担后果，长期来看也比持续隐瞒要好。',
@@ -461,7 +461,7 @@ const SWORDS: TarotCardData[] = [
   },
   {
     id: 71, name: 'Eight of Swords', nameCN: '宝剑八', arcanaType: 'minor', suit: 'swords', cardNumber: 8,
-    romanNumeral: 'VIII', symbol: '⊗',
+    romanNumeral: 'VIII', symbol: '⛓',
     keywords: ['困境', '自我限制', '受困', '信念牢笼', '无助'],
     uprightMeaning: '你感到被困住了，无路可走——但这些束缚大多来自你自己的思维。那些剑并没有真正围住你，蒙住眼睛的是你的恐惧。',
     reversedMeaning: '你开始看到逃脱的可能，或正在打破那些限制性的信念。解放始于意识到你并不是真的被困住的。',
@@ -470,7 +470,7 @@ const SWORDS: TarotCardData[] = [
   },
   {
     id: 72, name: 'Nine of Swords', nameCN: '宝剑九', arcanaType: 'minor', suit: 'swords', cardNumber: 9,
-    romanNumeral: 'IX', symbol: '∿',
+    romanNumeral: 'IX', symbol: '🌑',
     keywords: ['焦虑', '夜间恐惧', '噩梦', '担忧', '内心折磨'],
     uprightMeaning: '黑暗中的焦虑与恐惧让你夜不成寐。这张牌揭示的是内心世界的风暴，而非外部现实——你的想象往往比实际情况更可怕。',
     reversedMeaning: '你正在从焦虑的深渊中爬出，或开始寻求帮助与支持。承认内心的挣扎是疗愈的第一步。',
@@ -479,7 +479,7 @@ const SWORDS: TarotCardData[] = [
   },
   {
     id: 73, name: 'Ten of Swords', nameCN: '宝剑十', arcanaType: 'minor', suit: 'swords', cardNumber: 10,
-    romanNumeral: 'X', symbol: '✦',
+    romanNumeral: 'X', symbol: '🩸',
     keywords: ['终结', '背叛', '失败', '触底', '黎明前'],
     uprightMeaning: '这是最低谷，是彻底的结束。但请注意那黎明前的曙光——每一个触底都是新循环的开始。最坏的时刻已经过去。',
     reversedMeaning: '你正在从最低谷缓慢爬起，或你在抗拒承认一个已经失败的局面。真正的结束才能带来真正的新生。',
@@ -488,7 +488,7 @@ const SWORDS: TarotCardData[] = [
   },
   {
     id: 74, name: 'Page of Swords', nameCN: '宝剑侍者', arcanaType: 'minor', suit: 'swords', cardNumber: 11,
-    romanNumeral: 'P', symbol: '⚡',
+    romanNumeral: 'P', symbol: '🪶',
     keywords: ['好奇', '求知', '警觉', '直言', '新想法'],
     uprightMeaning: '一种充满好奇与机警的能量降临。大胆地探索新想法，说出你看见的真相，即使它让人不舒服。',
     reversedMeaning: '言辞刻薄或口不择言伤害了他人。在发言之前，多想一步——真相需要以智慧和慈悲传递。',
@@ -497,7 +497,7 @@ const SWORDS: TarotCardData[] = [
   },
   {
     id: 75, name: 'Knight of Swords', nameCN: '宝剑骑士', arcanaType: 'minor', suit: 'swords', cardNumber: 12,
-    romanNumeral: 'Kn', symbol: '⚔',
+    romanNumeral: 'Kn', symbol: '⚡',
     keywords: ['冲劲', '直接', '果断', '鲁莽', '速度'],
     uprightMeaning: '以惊人的速度和决断力冲向目标。这股能量势不可挡，但高速前进时更需要确保方向正确。',
     reversedMeaning: '鲁莽与草率带来了不必要的冲突。在行动前停下来思考，速度不能弥补方向的错误。',
@@ -506,7 +506,7 @@ const SWORDS: TarotCardData[] = [
   },
   {
     id: 76, name: 'Queen of Swords', nameCN: '宝剑王后', arcanaType: 'minor', suit: 'swords', cardNumber: 13,
-    romanNumeral: 'Q', symbol: '♔',
+    romanNumeral: 'Q', symbol: '❄',
     keywords: ['清明', '独立', '直接', '智慧', '界限清晰'],
     uprightMeaning: '你以清醒的头脑和清晰的界限看穿一切。不被情绪左右的智慧，让你能够公正地判断，直接而有力地行动。',
     reversedMeaning: '冷漠变成了残酷，或界限变成了防御性的城墙。在保持清醒的同时，不要失去内心的温柔。',
@@ -515,7 +515,7 @@ const SWORDS: TarotCardData[] = [
   },
   {
     id: 77, name: 'King of Swords', nameCN: '宝剑国王', arcanaType: 'minor', suit: 'swords', cardNumber: 14,
-    romanNumeral: 'K', symbol: '♕',
+    romanNumeral: 'K', symbol: '♚',
     keywords: ['权威', '真理', '公正', '智识领导', '清明决策'],
     uprightMeaning: '以权威与清晰的智慧做出公正的判断。你有能力看见全局，做出符合真理与逻辑的决策，并且坚定地执行它。',
     reversedMeaning: '权威被用来操控与强迫，或冷酷的判断缺乏人情味。真正的智慧包含对人性的理解与慈悲。',
